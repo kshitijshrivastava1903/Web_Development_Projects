@@ -6,7 +6,7 @@ const app = express();
 
 
 app.get("/",function(req,res){
-    res.send("Server is up.");
+    res.send("Server has started and this file is being sent.");
 });
 
 app.listen(3000,function(){
